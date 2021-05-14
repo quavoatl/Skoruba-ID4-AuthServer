@@ -1,0 +1,822 @@
+[2021-05-14T17:37:33.7544870+00:00][WARN][1][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+[2021-05-14T17:37:33.9041549+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+[2021-05-14T17:37:34.8124127+00:00][INFO][1][Microsoft.Hosting.Lifetime] Now listening on: "http://[::]:80"
+[2021-05-14T17:37:34.8168548+00:00][INFO][1][Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2021-05-14T17:37:34.8170348+00:00][INFO][1][Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+[2021-05-14T17:37:34.8171042+00:00][INFO][1][Microsoft.Hosting.Lifetime] Content root path: "/app"
+[2021-05-14T17:41:10.2077851+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:41:10.2846356+00:00][DBUG][14][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:41:10.3019181+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 95.6964ms 404 
+[2021-05-14T17:41:10.4374695+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:41:10.4398486+00:00][DBUG][14][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:41:10.4441719+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 6.6949ms 404 
+[2021-05-14T17:41:10.5470898+00:00][INFO][17][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:41:10.5501339+00:00][DBUG][17][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:41:10.5507811+00:00][INFO][17][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 3.6655ms 404 
+[2021-05-14T17:41:10.6567917+00:00][INFO][15][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:41:10.6571302+00:00][DBUG][15][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:41:10.6572702+00:00][INFO][15][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 0.522ms 404 
+[2021-05-14T17:41:10.7680983+00:00][INFO][17][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:41:10.7693869+00:00][DBUG][17][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:41:10.7703769+00:00][INFO][17][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 2.3608ms 404 
+[2021-05-14T17:41:10.8800394+00:00][INFO][15][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:41:10.8803775+00:00][DBUG][15][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:41:10.8811334+00:00][INFO][15][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1.0679ms 404 
+[2021-05-14T17:41:10.9284303+00:00][INFO][17][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:41:10.9288811+00:00][DBUG][17][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:41:10.9298062+00:00][INFO][17][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1.3877ms[2021-05-14T17:47:42.4205882+00:00][WARN][1][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+[2021-05-14T17:47:42.5988668+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+[2021-05-14T17:47:42.6828557+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Creating key {e1d86339-2815-43b8-be8f-8e53d5939968} with creation date 2021-05-14 17:47:42Z, activation date 2021-05-14 17:47:42Z, and expiration date 2021-08-12 17:47:42Z.
+[2021-05-14T17:47:42.7648641+00:00][WARN][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] No XML encryptor configured. Key {e1d86339-2815-43b8-be8f-8e53d5939968} may be persisted to storage in unencrypted form.
+[2021-05-14T17:47:42.7763943+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Writing data to file '"/root/.aspnet/DataProtection-Keys/key-e1d86339-2815-43b8-be8f-8e53d5939968.xml"'.
+[2021-05-14T17:47:43.6419316+00:00][INFO][1][Microsoft.Hosting.Lifetime] Now listening on: "http://[::]:80"
+[2021-05-14T17:47:43.6424539+00:00][INFO][1][Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2021-05-14T17:47:43.6425621+00:00][INFO][1][Microsoft.Hosting.Lifetime] Hosting environment: "Production"
+[2021-05-14T17:47:43.6426523+00:00][INFO][1][Microsoft.Hosting.Lifetime] Content root path: "/app"
+[2021-05-14T17:48:48.5845194+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:48:48.6830600+00:00][DBUG][11][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:48:48.7014347+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 120.0111ms 404 
+[2021-05-14T17:48:48.8332344+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:48:48.8341842+00:00][DBUG][11][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:48:48.8346450+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1.417ms 404 
+[2021-05-14T17:48:48.9403580+00:00][INFO][12][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:48:48.9432356+00:00][DBUG][12][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:48:48.9437057+00:00][INFO][12][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 3.3399ms 404 
+[2021-05-14T17:48:49.0474239+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:48:49.0484139+00:00][DBUG][5][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:48:49.0488180+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1.4255ms 404 
+[2021-05-14T17:48:49.1683462+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:48:49.1699103+00:00][DBUG][6][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:48:49.1711012+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 2.944ms 404 
+[2021-05-14T17:48:49.2815587+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:48:49.2837096+00:00][DBUG][6][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:48:49.2855707+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 3.4263ms 404 
+[2021-05-14T17:48:49.5728153+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:48:49.5738655+00:00][DBUG][5][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:48:49.5759114+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 2.9113ms 404 
+[2021-05-14T17:48:49.6890820+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:48:49.6903180+00:00][DBUG][11][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:48:49.6910137+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1.9577ms 404 
+[2021-05-14T17:48:49.8209813+00:00][INFO][13][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:48:49.8223045+00:00][DBUG][13][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:48:49.8235415+00:00][INFO][13][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 2.6085ms 404 
+[2021-05-14T17:48:49.9254053+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:48:49.9261547+00:00][DBUG][5][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:48:49.9273730+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1.9693ms 404 
+[2021-05-14T17:48:50.0405657+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:48:50.0441815+00:00][DBUG][11][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:48:50.0460449+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 5.9308ms 404 
+[2021-05-14T17:48:50.1568704+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:48:50.1578951+00:00][DBUG][6][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:48:50.1597662+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 2.719ms 404 
+[2021-05-14T17:49:13.6335750+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:49:13.6351849+00:00][DBUG][6][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:49:13.6358403+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 2.5799ms 404 
+[2021-05-14T17:49:13.7397517+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:49:13.7402730+00:00][DBUG][6][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:49:13.7405920+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 0.8999ms 404 
+[2021-05-14T17:49:13.8469448+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T17:49:13.8477860+00:00][DBUG][11][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T17:49:13.8484350+[2021-05-14T17:58:52.1097607+00:00][WARN][1][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+[2021-05-14T17:58:52.2785150+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+[2021-05-14T17:58:52.3560131+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Creating key {d2b896d7-3ad5-4887-946d-1e83f744f78c} with creation date 2021-05-14 17:58:52Z, activation date 2021-05-14 17:58:52Z, and expiration date 2021-08-12 17:58:52Z.
+[2021-05-14T17:58:52.4289801+00:00][WARN][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] No XML encryptor configured. Key {d2b896d7-3ad5-4887-946d-1e83f744f78c} may be persisted to storage in unencrypted form.
+[2021-05-14T17:58:52.4373674+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Writing data to file '"/root/.aspnet/DataProtection-Keys/key-d2b896d7-3ad5-4887-946d-1e83f744f78c.xml"'.
+[2021-05-14T17:58:53.2394633+00:00][INFO][1][Microsoft.Hosting.Lifetime] Now listening on: "http://[::]:80"
+[2021-05-14T17:58:53.2408539+00:00][INFO][1][Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2021-05-14T17:58:53.2410515+00:00][INFO][1][Microsoft.Hosting.Lifetime] Hosting environment: "Production"
+[2021-05-14T17:58:53.2412081+00:00][INFO][1][Microsoft.Hosting.Lifetime] Content root path: "/app"
+[2021-05-14T18:04:15.5111730+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T18:04:15.6095508+00:00][DBUG][14][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T18:04:15.6298463+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 119.7337ms 404 
+[2021-05-14T18:04:15.7069838+00:00][INFO][15][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+[2021-05-14T18:04:15.7131528+00:00][DBUG][15][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T18:04:15.7144007+00:00][INFO][15][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 7.3195ms 404 
+[2021-05-14T18:04:19.5411508+00:00][INFO][13][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T18:04:19.5455453+00:00][DBUG][13][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T18:04:19.5470726+00:00][INFO][13][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 6.2044ms 404 
+[2021-05-14T18:04:33.2307145+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T18:04:33.2331825+00:00][DBUG][14][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T18:04:33.2386062+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 8.0565ms 404 
+[2021-05-14T18:07:23.3803805+00:00][INFO][23][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+[2021-05-14T18:07:23.6420722+00:00][INFO][23][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 261.9311ms 200 text/html;charset=utf-8
+[2021-05-14T18:07:23.7403730+00:00][INFO][23][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css  
+[2021-05-14T18:07:23.7892554+00:00][INFO][21][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js  
+[2021-05-14T18:07:23.8920864+00:00][INFO][23][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js  
+[2021-05-14T18:07:23.9492983+00:00][INFO][21][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[2021-05-14T18:07:23.9488637+00:00][INFO][23][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+[2021-05-14T18:07:23.9538021+00:00][INFO][21][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 235.0567ms 200 text/css
+[2021-05-14T18:07:23.9538021+00:00][INFO][23][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 61.6831ms 200 application/javascript
+[2021-05-14T18:07:24.0056638+00:00][INFO][21][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+[2021-05-14T18:07:24.0123192+00:00][INFO][21][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 220.7933ms 200 application/javascript
+[2021-05-14T18:07:24.1819273+00:00][INFO][23][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png  
+[2021-05-14T18:07:24.1824667+00:00][INFO][23][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[2021-05-14T18:07:24.1842050+00:00][INFO][23][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 2.212ms 200 image/png
+[2021-05-14T18:07:24.2660464+00:00][INFO][21][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+[2021-05-14T18:07:24.7144873+00:00][INFO][22][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 448.0933ms 200 application/json;charset=utf-8
+[2021-05-14T18:13:40.9209733+00:00][INFO][33][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/oauth2-redirect.html  
+[2021-05-14T18:13:40.9251721+00:00][INFO][33][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/oauth2-redirect.html"'. Physical path: '"N/A"'
+[2021-05-14T18:13:40.9342082+00:00][INFO][33][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 8.7717ms 200 text/html
+[2021-05-14T18:13:49.3416731+00:00][INFO][34][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/ApiResources?searchText=a&page=1&pageSize=10  
+[2021-05-14T18:13:50.3266352+00:00][EROR][33][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2021-05-14T18:13:50.6720031+00:00][EROR][33][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at [2021-05-14T18:56:55.1140225+00:00][WARN][1][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+[2021-05-14T18:56:55.2499592+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+[2021-05-14T18:56:56.1929704+00:00][INFO][1][Microsoft.Hosting.Lifetime] Now listening on: "http://[::]:80"
+[2021-05-14T18:56:56.1944861+00:00][INFO][1][Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2021-05-14T18:56:56.1946800+00:00][INFO][1][Microsoft.Hosting.Lifetime] Hosting environment: "Production"
+[2021-05-14T18:56:56.1947686+00:00][INFO][1][Microsoft.Hosting.Lifetime] Content root path: "/app"
+[2021-05-14T18:57:41.8236846+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+[2021-05-14T18:57:41.9945635+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 172.141ms 200 text/html;charset=utf-8
+[2021-05-14T18:57:42.2255419+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+[2021-05-14T18:57:42.4684827+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 242.8678ms 200 application/json;charset=utf-8
+[2021-05-14T18:59:03.0196072+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/Roles?searchText=a&page=1&pageSize=10  
+[2021-05-14T18:59:03.8825470+00:00][EROR][14][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2021-05-14T18:59:04.1619490+00:00][EROR][14][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+[2021-05-14T18:59:04.1787083+00:00][INFO][14][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] "Bearer" was not authenticated. Failure message: "IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'."
+[2021-05-14T18:59:04.1843401+00:00][INFO][14][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed.
+[2021-05-14T18:59:04.2679661+00:00][INFO][14][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "BearerIdentityServerAuthenticationJwt" was challenged.
+[2021-05-14T18:59:04.2680724+00:00][INFO][14][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was challenged.
+[2021-05-14T18:59:04.2692440+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1249.7938ms 401 
+[2021-05-14T18:59:23.5981121+00:00][INFO][15][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/Roles?searchText=a&page=1&pageSize=10  
+[2021-05-14T18:59:23.6538042+00:00][EROR][15][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2021-05-14T18:59:23.7400167+00:00][EROR][15][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+[2021-05-14T18:59:23.7425945+00:00][INFO][15][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] "Bearer" was not authenticated. Failure message: "IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'."
+[2021-05-14T18:59:23.7466701+00:00][INFO][15][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed.
+[2021-05-14T18:59:23.7745745+00:00][INFO][15][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "BearerIdentityServerAuthenticationJwt" was challenged.
+[2021-05-14T18:59:23.7746832+00:00][INFO][15][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was challenged.
+[2021-05-14T18:59:23.7754993+00:00][INFO][15][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 177.4384ms 401 
+[2021-05-14T19:02:39.2539535+00:00][INFO][21][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/Roles?searchText=a&page=1&pageSize=10  
+[2021-05-14T19:02:40.1106455+00:00][EROR][24][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2021-05-14T19:02:40.3724203+00:00][EROR][24][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+[2021-05-14T19:02:40.3795299+00:00][INFO][24][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] "Bearer" was not authenticated. Failure message: "IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'."
+[2021-05-14T19:02:40.3833351+00:00][INFO][24][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed.
+[2021-05-14T19:02:40.4690586+00:00][INFO][24][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "BearerIdentityServerAuthenticationJwt" was challenged.
+[2021-05-14T19:02:40.4691468+00:00][INFO][24][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was challenged.
+[2021-05-14T19:02:40.4697392+00:00][INFO][24][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1216.1147ms 401 
+[2021-05-14T19:03:31.9127010+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T19:03:31.9141169+00:00][DBUG][14][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T19:03:31.9151878+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 2.524ms 404 
+[2021-05-14T19:03:32.0306357+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T19:03:32.0314217+00:00][DBUG][14][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T19:03:32.0322277+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1.6561ms 404 
+[2021-05-14T19:03:32.1414980+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T19:03:32.1421653+00:00][DBUG][14][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T19:03:32.1423523+00:00][INFO][14][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 0.8665ms 404 
+[2021-05-14T19:03:32.2523663+00:00][INFO][27][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T19:03:32.2531597+00:00][DBUG][27][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T19:03:32.2539031+00:00][INFO][27][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1.3418ms 404 
+[2021-05-14T19:03:32.3653590+00:00][INFO][26][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T19:03:32.3671753+00:00][DBUG][26][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T19:03:32.3687052+00:00][INFO][26][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 3.3564ms 404 
+[2021-05-14T19:03:32.4843499+00:00][INFO][26][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/  
+[2021-05-14T19:03:32.4846777+00:00][DBUG][26][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T19:03:32.4849243+00[2021-05-14T19:04:59.7118325+00:00][WARN][1][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+[2021-05-14T19:04:59.8681794+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+[2021-05-14T19:05:30.6706972+00:00][INFO][1][Microsoft.Hosting.Lifetime] Now listening on: "http://[::]:80"
+[2021-05-14T19:05:30.6715645+00:00][INFO][1][Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2021-05-14T19:05:30.6716628+00:00][INFO][1][Microsoft.Hosting.Lifetime] Hosting environment: "Production"
+[2021-05-14T19:05:30.6717186+00:00][INFO][1][Microsoft.Hosting.Lifetime] Content root path: "/app"
+[2021-05-14T19:05:33.1516470+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+[2021-05-14T19:05:33.4676062+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 319.6375ms 200 text/html;charset=utf-8
+[2021-05-14T19:05:33.5165018+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css  
+[2021-05-14T19:05:33.6453357+00:00][INFO][5][Microsoft.AspNetCore.Server.Kestrel] Connection id ""0HM8N1CVRCH9K"", Request id ""0HM8N1CVRCH9K:00000001"": the application aborted the connection.
+[2021-05-14T19:05:33.6466988+00:00][INFO][5][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[2021-05-14T19:05:33.6470983+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 130.694ms 0 text/css
+[2021-05-14T19:05:33.7826020+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+[2021-05-14T19:05:34.1468877+00:00][INFO][10][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 364.2774ms 200 application/json;charset=utf-8
+[2021-05-14T19:05:42.2948693+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/oauth2-redirect.html  
+[2021-05-14T19:05:42.3590466+00:00][INFO][5][Microsoft.AspNetCore.Server.Kestrel] Connection id ""0HM8N1CVRCH9J"", Request id ""0HM8N1CVRCH9J:00000002"": the application aborted the connection.
+[2021-05-14T19:05:42.3593523+00:00][INFO][5][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/oauth2-redirect.html"'. Physical path: '"N/A"'
+[2021-05-14T19:05:42.3599027+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 64.9978ms 0 text/html
+[2021-05-14T19:05:54.4117866+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/ApiResources?searchText=a&page=1&pageSize=10  
+[2021-05-14T19:05:55.7357021+00:00][EROR][4][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2021-05-14T19:05:56.1625094+00:00][EROR][4][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+[2021-05-14T19:05:56.1754619+00:00][INFO][4][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] "Bearer" was not authenticated. Failure message: "IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'."
+[2021-05-14T19:05:56.1935823+00:00][INFO][4][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed.
+[2021-05-14T19:05:56.3443090+00:00][INFO][4][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "BearerIdentityServerAuthenticationJwt" was challenged.
+[2021-05-14T19:05:56.3444978+00:00][INFO][4][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was challenged.
+[2021-05-14T19:05:56.3464727+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1935.1553ms 401 
+[2021-05-14T19:06:34.0495629+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/ApiResources?searchText=a&page=1&pageSize=10  
+[2021-05-14T19:06:35.0719457+00:00][EROR][10][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2021-05-14T19:06:35.4383758+00:00][EROR][10][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+[2021-05-14T19:06:35.4480403+00:00][INFO][10][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] "Bearer" was not authenticated. Failure message: "IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'."
+[2021-05-14T19:06:35.4543514+00:00][INFO][10][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed.
+[2021-05-14T19:06:35.5803058+00:00][INFO][10][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "BearerIdentityServerAuthenticationJwt" was challenged.
+[2021-05-14T19:06:35.5804439+00:00][INFO][10][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was challenged.
+[2021-05-14T19:06:35.5821315+00:00][INFO][10][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1531.6976ms 401 
+[2021-05-14T19:07:27.4409865+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/ApiResources?searchText=a&page=1&pageSize=10  
+[2021-05-14T19:07:28.3079246+00:00][EROR][12][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2021-05-14T19:07:28.7266154+00:00][EROR][12][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+[2021-05-14T19:07:28.7360397+00:00][INFO][12][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] "Bearer" was not authenticated. Failure message: "IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'."
+[2021-05-14T19:07:28.7390910+00:00][INFO][12][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed.
+[2021-05-14T19:07:28.8536610+00:00][INFO][12][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "BearerIdentityServerAuthenticationJwt" was challenged.
+[2021-05-14T19:07:28.8541072+00:00][INFO][12][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was challenged.
+[2021-05-14T19:07:28.8545811+00:00][INFO][12][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1413.7852ms 401 
+[2021-05-14T19:11:12.7652195+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/ApiResources?searchText=a&page=1&pageSize=10  
+[2021-05-14T19:11:13.5030419+00:00][EROR][12][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2021-05-14T19:11:13.7792376+00:00][EROR][12][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriev[2021-05-14T19:18:20.4881407+00:00][WARN][1][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+[2021-05-14T19:18:20.6067503+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+[2021-05-14T19:18:26.8625023+00:00][INFO][1][Microsoft.Hosting.Lifetime] Now listening on: "http://[::]:80"
+[2021-05-14T19:18:26.8629888+00:00][INFO][1][Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2021-05-14T19:18:26.8630998+00:00][INFO][1][Microsoft.Hosting.Lifetime] Hosting environment: "Production"
+[2021-05-14T19:18:26.8632137+00:00][INFO][1][Microsoft.Hosting.Lifetime] Content root path: "/app"
+[2021-05-14T19:18:29.8579982+00:00][INFO][7][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+[2021-05-14T19:18:30.0956077+00:00][INFO][7][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 238.6177ms 200 text/html;charset=utf-8
+[2021-05-14T19:18:30.3120681+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+[2021-05-14T19:18:30.5840985+00:00][INFO][10][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 272.3262ms 200 application/json;charset=utf-8
+[2021-05-14T19:18:36.8021262+00:00][INFO][7][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/oauth2-redirect.html  
+[2021-05-14T19:18:36.8616955+00:00][INFO][7][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/oauth2-redirect.html"'. Physical path: '"N/A"'
+[2021-05-14T19:18:36.8626051+00:00][INFO][7][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 61.5001ms 200 text/html
+[2021-05-14T19:18:44.0346141+00:00][INFO][10][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/ApiResources?searchText=a&page=1&pageSize=10  
+[2021-05-14T19:18:45.0124221+00:00][EROR][7][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.[2021-05-14T19:24:50.8400872+00:00][WARN][1][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+[2021-05-14T19:24:50.9464247+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+[2021-05-14T19:24:51.9683923+00:00][INFO][1][Microsoft.Hosting.Lifetime] Now listening on: "http://[::]:80"
+[2021-05-14T19:24:51.9691781+00:00][INFO][1][Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2021-05-14T19:24:51.9692962+00:00][INFO][1][Microsoft.Hosting.Lifetime] Hosting environment: "Production"
+[2021-05-14T19:24:51.9694214+00:00][INFO][1][Microsoft.Hosting.Lifetime] Content root path: "/app"
+[2021-05-14T19:24:52.3383542+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+[2021-05-14T19:24:52.5303680+00:00][INFO][10][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+[2021-05-14T19:24:52.7706221+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 396.4303ms 200 text/html;charset=utf-8
+[2021-05-14T19:24:52.7711071+00:00][INFO][10][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 240.7718ms 200 text/html;charset=utf-8
+[2021-05-14T19:24:55.2037725+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png  
+[2021-05-14T19:24:55.3957862+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+[2021-05-14T19:24:55.4302911+00:00][INFO][6][Microsoft.AspNetCore.Server.Kestrel] Connection id ""0HM8N1NPAFNMI"", Request id ""0HM8N1NPAFNMI:00000001"": the application aborted the connection.
+[2021-05-14T19:24:55.4317194+00:00][INFO][6][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[2021-05-14T19:24:55.4324044+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 229.1856ms 0 image/png
+[2021-05-14T19:24:55.8258268+00:00][INFO][10][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 430.2682ms 200 application/json;charset=utf-8
+[2021-05-14T19:25:01.8438291+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/oauth2-redirect.html  
+[2021-05-14T19:25:01.8821390+00:00][INFO][6][Microsoft.AspNetCore.Server.Kestrel] Connection id ""0HM8N1NPAFNMJ"", Request id ""0HM8N1NPAFNMJ:00000002"": the application aborted the connection.
+[2021-05-14T19:25:01.8823671+00:00][INFO][6][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/oauth2-redirect.html"'. Physical path: '"N/A"'
+[2021-05-14T19:25:01.8826641+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 38.9134ms 0 text/html
+[2021-05-14T19:25:02.1004748+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+[2021-05-14T19:25:02.1784048+00:00][DBUG][5][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T19:25:02.1825738+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 82.2553ms 0 
+[2021-05-14T19:25:07.1822398+00:00][INFO][10][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/ApiResources?searchText=a&page=1&pageSize=10  
+[2021-05-14T19:25:08.0190085+00:00][EROR][12][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2021-05-14T19:25:08.3232022+00:00][EROR][12][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler.HandleAuthenticateAsync()
+[2021-05-14T19:25:08.3387002+00:00][INFO][12][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] "Bearer" was not authenticated. Failure message: "IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'."
+[2021-05-14T19:25:08.3474804+00:00][INFO][12][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed.
+[2021-05-14T19:25:08.4450037+00:00][INFO][12][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "BearerIdentityServerAuthenticationJwt" was challenged.
+[2021-05-14T19:25:08.4451165+00:00][INFO][12][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was challenged.
+[2021-05-14T19:25:08.4459878+00:00][INFO][12][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1263.9441ms 401 
+[2021-05-14T19:25:41.4484354+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/ApiResources?searchText=a&page=1&pageSize=10  
+[2021-05-14T19:25:42.0258338+00:00][EROR][5][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2021-05-14T19:25:42.2555894+00:00][EROR][5][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext contex[2021-05-14T19:27:39.0908070+00:00][WARN][1][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+[2021-05-14T19:27:39.2079755+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+[2021-05-14T19:27:39.9842692+00:00][INFO][1][Microsoft.Hosting.Lifetime] Now listening on: "http://[::]:80"
+[2021-05-14T19:27:39.9863006+00:00][INFO][1][Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2021-05-14T19:27:39.9865255+00:00][INFO][1][Microsoft.Hosting.Lifetime] Hosting environment: "Production"
+[2021-05-14T19:27:39.9866043+00:00][INFO][1][Microsoft.Hosting.Lifetime] Content root path: "/app"
+[2021-05-14T19:27:43.4539470+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+[2021-05-14T19:27:43.6893218+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 236.2029ms 200 text/html;charset=utf-8
+[2021-05-14T19:27:43.8508624+00:00][INFO][12][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+[2021-05-14T19:27:44.1290281+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 278.1507ms 200 application/json;charset=utf-8
+[2021-05-14T19:27:53.4888320+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/ApiResources?searchText=a&page=1&pageSize=10  
+[2021-05-14T19:27:54.3222589+00:00][EROR][11][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protoc[2021-05-14T19:31:14.8229852+00:00][WARN][1][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+[2021-05-14T19:31:14.9063683+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+[2021-05-14T19:31:20.4405182+00:00][INFO][1][Microsoft.Hosting.Lifetime] Now listening on: "http://[::]:80"
+[2021-05-14T19:31:20.4409285+00:00][INFO][1][Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2021-05-14T19:31:20.4409978+00:00][INFO][1][Microsoft.Hosting.Lifetime] Hosting environment: "Production"
+[2021-05-14T19:31:20.4410383+00:00][INFO][1][Microsoft.Hosting.Lifetime] Content root path: "/app"
+[2021-05-14T19:31:26.6817097+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+[2021-05-14T19:31:26.8868940+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 205.8107ms 200 text/html;charset=utf-8
+[2021-05-14T19:31:26.9396105+00:00][INFO][8][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js  
+[2021-05-14T19:31:27.0068352+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css  
+[2021-05-14T19:31:27.0122001+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js  
+[2021-05-14T19:31:27.1770501+00:00][INFO][8][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[2021-05-14T19:31:27.1770850+00:00][INFO][11][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+[2021-05-14T19:31:27.1783364+00:00][INFO][8][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 171.4599ms 200 text/css
+[2021-05-14T19:31:27.1783476+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 166.0987ms 200 application/javascript
+[2021-05-14T19:31:27.2264211+00:00][INFO][8][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+[2021-05-14T19:31:27.2271398+00:00][INFO][8][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 287.5729ms 200 application/javascript
+[2021-05-14T19:31:27.3665454+00:00][INFO][8][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png  
+[2021-05-14T19:31:27.3668397+00:00][INFO][8][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[2021-05-14T19:31:27.3669187+00:00][INFO][8][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 0.4306ms 200 image/png
+[2021-05-14T19:31:27.4200266+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+[2021-05-14T19:31:27.6679476+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 248.1006ms 200 application/json;charset=utf-8
+[2021-05-14T19:31:41.9413477+00:00][INFO][8][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/oauth2-redirect.html  
+[2021-05-14T19:31:41.9442068+00:00][INFO][8][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/oauth2-redirect.html"'. Physical path: '"N/A"'
+[2021-05-14T19:31:41.9451378+00:00][INFO][8][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 4.1757ms 200 text/html
+[2021-05-14T19:31:42.3526290+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+[2021-05-14T19:31:42.4307569+00:00][DBUG][11][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was not authenticated.
+[2021-05-14T19:31:42.4349049+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 81.9848ms 404 
+[2021-05-14T19:31:47.7445705+00:00][INFO][11][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/ApiResources?searchText=1&page=1&pageSize=10  
+[2021-05-14T19:31:49.1455711+00:00][EROR][4][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:4000/.well-known/openid-configuration'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: 'http://localhost:4000/.well-known/openid-configuration'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2021-05-14T19:31:49.6463446+00:00][EROR][4][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] IDX20803: Unable to obtain configuration from: 'http://localhost:4000/.well-known/openid-configuration'.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:4000/.well-known/openid-configuration'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: 'http://localhost:4000/.well-known/openid-configuration'.
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at [2021-05-14T19:44:45.1250861+00:00][WARN][1][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+[2021-05-14T19:44:45.2302763+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+[2021-05-14T19:44:45.3129703+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Creating key {db0fddd7-9f3d-4f92-b4ad-7fb198d1c719} with creation date 2021-05-14 19:44:45Z, activation date 2021-05-14 19:44:45Z, and expiration date 2021-08-12 19:44:45Z.
+[2021-05-14T19:44:45.3548114+00:00][WARN][1][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] No XML encryptor configured. Key {db0fddd7-9f3d-4f92-b4ad-7fb198d1c719} may be persisted to storage in unencrypted form.
+[2021-05-14T19:44:45.3807027+00:00][INFO][1][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Writing data to file '"/root/.aspnet/DataProtection-Keys/key-db0fddd7-9f3d-4f92-b4ad-7fb198d1c719.xml"'.
+[2021-05-14T19:44:50.0423165+00:00][INFO][1][Microsoft.Hosting.Lifetime] Now listening on: "http://[::]:80"
+[2021-05-14T19:44:50.0428644+00:00][INFO][1][Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2021-05-14T19:44:50.0429512+00:00][INFO][1][Microsoft.Hosting.Lifetime] Hosting environment: "Production"
+[2021-05-14T19:44:50.0430072+00:00][INFO][1][Microsoft.Hosting.Lifetime] Content root path: "/app"
+[2021-05-14T19:44:53.1209507+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+[2021-05-14T19:44:53.3200653+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 201.0884ms 200 text/html;charset=utf-8
+[2021-05-14T19:44:53.4875139+00:00][INFO][10][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png  
+[2021-05-14T19:44:53.5224397+00:00][INFO][10][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[2021-05-14T19:44:53.5229644+00:00][INFO][10][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 35.5843ms 200 image/png
+[2021-05-14T19:44:53.5569990+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+[2021-05-14T19:44:53.8563235+00:00][INFO][10][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 299.3287ms 200 application/json;charset=utf-8
+[2021-05-14T19:45:21.2402370+00:00][INFO][10][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/ApiResources?searchText=1&page=1&pageSize=10  
+[2021-05-14T19:45:21.9442085+00:00][INFO][10][Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Successfully validated the token.
+[2021-05-14T19:45:21.9489474+00:00][DBUG][10][IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler] AuthenticationScheme: "Bearer" was successfully authenticated.
+[2021-05-14T19:45:21.9640462+00:00][INFO][10][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization was successful.
+[2021-05-14T19:45:21.9653382+00:00][INFO][10][Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"MyProject.Admin.Api.Controllers.ApiResourcesController.Get (MyProject.Admin.Api)"'
+[2021-05-14T19:45:22.0139604+00:00][INFO][10][Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"Get\", controller = \"ApiResources\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyProject.Admin.Api.Dtos.ApiResources.ApiResourcesApiDto]] Get(System.String, Int32, Int32)" on controller "MyProject.Admin.Api.Co
