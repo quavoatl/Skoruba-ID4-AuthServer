@@ -28,7 +28,7 @@ stages:
     - task: DockerCompose@0
       inputs:
         containerregistrytype: 'Azure Container Registry'
-        azureSubscriptionEndpoint: 'ada7effe-7991-4efa-b45e-172d85ea6fe1'
+        azureSubscription: 'ada7effe-7991-4efa-b45e-172d85ea6fe1'
         azureContainerRegistry: '{"loginServer":"acrresource.azurecr.io", "id" : "/subscriptions/ada7effe-7991-4efa-b45e-172d85ea6fe1/resourceGroups/acr_resource/providers/Microsoft.ContainerRegistry/registries/acrresource"}'
         dockerComposeFile: '**/docker-compose.yml'
         action: 'Run a Docker Compose command'
@@ -36,7 +36,7 @@ stages:
     - task: DockerCompose@0
       inputs:
         containerregistrytype: 'Azure Container Registry'
-        azureSubscriptionEndpoint: 'ada7effe-7991-4efa-b45e-172d85ea6fe1'
+        azureSubscription: 'ada7effe-7991-4efa-b45e-172d85ea6fe1'
         azureContainerRegistry: '{"loginServer":"acrresource.azurecr.io", "id" : "/subscriptions/ada7effe-7991-4efa-b45e-172d85ea6fe1/resourceGroups/acr_resource/providers/Microsoft.ContainerRegistry/registries/acrresource"}'
         dockerComposeFile: '**/docker-compose.yml'
         action: 'Run a Docker Compose command'
