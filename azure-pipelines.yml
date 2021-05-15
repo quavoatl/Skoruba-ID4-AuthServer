@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'DockerHubSvcConn'
+  dockerRegistryServiceConnection: '4e679f67-ddf3-4868-9a93-0e554cb64265'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
