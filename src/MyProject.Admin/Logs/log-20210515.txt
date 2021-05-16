@@ -1,0 +1,207 @@
+[2021-05-15T13:18:13.0493825+00:00][INFO][1][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"IdentityServerPersistedGrantDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:18:14.0520884+00:00][INFO][12][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:18:14.0902193+00:00][INFO][12][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:18:14.1194856+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+[2021-05-15T13:18:14.1608033+00:00][INFO][6][Microsoft.EntityFrameworkCore.Migrations] No migrations were applied. The database is already up to date.
+[2021-05-15T13:18:14.1644537+00:00][INFO][6][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"AdminIdentityDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:18:14.2172845+00:00][INFO][10][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:18:14.2306887+00:00][INFO][10][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:18:14.2353178+00:00][INFO][10][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+[2021-05-15T13:18:14.2362222+00:00][INFO][10][Microsoft.EntityFrameworkCore.Migrations] No migrations were applied. The database is already up to date.
+[2021-05-15T13:18:14.2370797+00:00][INFO][10][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"IdentityServerConfigurationDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:18:14.2715994+00:00][INFO][4][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:18:14.2824501+00:00][INFO][10][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:18:14.3072710+00:00][INFO][4][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+[2021-05-15T13:18:14.3079011+00:00][INFO][4][Microsoft.EntityFrameworkCore.Migrations] No migrations were applied. The database is already up to date.
+[2021-05-15T13:18:14.3086243+00:00][INFO][4][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"AdminLogDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:18:14.3204292+00:00][INFO][10][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:18:14.3664589+00:00][INFO][4][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:18:14.3912415+00:00][INFO][10][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+[2021-05-15T13:18:14.3920124+00:00][INFO][10][Microsoft.EntityFrameworkCore.Migrations] No migrations were applied. The database is already up to date.
+[2021-05-15T13:18:14.3933189+00:00][INFO][10][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"AdminAuditLogDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:18:14.4279886+00:00][INFO][4][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:18:14.4410482+00:00][INFO][10][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:18:14.4478244+00:00][INFO][4][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+[2021-05-15T13:18:14.4481984+00:00][INFO][4][Microsoft.EntityFrameworkCore.Migrations] No migrations were applied. The database is already up to date.
+[2021-05-15T13:18:14.4861492+00:00][WARN][4][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+[2021-05-15T13:18:14.4867400+00:00][INFO][4][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+[2021-05-15T13:18:14.5076791+00:00][INFO][4][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"IdentityServerConfigurationDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:18:14.6966173+00:00][INFO][4][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"IdentityResources\" AS i)"
+[2021-05-15T13:18:14.7038171+00:00][INFO][4][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"ApiResources\" AS a)"
+[2021-05-15T13:18:14.7075497+00:00][INFO][4][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"Clients\" AS c)"
+[2021-05-15T13:18:14.7139587+00:00][INFO][4][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"AdminIdentityDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:18:14.7343273+00:00][INFO][10][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"Roles\" AS r)"
+[2021-05-15T13:18:14.7917723+00:00][INFO][4][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"Users\" AS u)"
+[2021-05-15T13:18:14.8745669+00:00][INFO][4][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Creating key {aaefbc95-33e4-401f-8bcb-a5d478b32bbb} with creation date 2021-05-15 13:18:14Z, activation date 2021-05-15 13:18:14Z, and expiration date 2021-08-13 13:18:14Z.
+[2021-05-15T13:18:14.8870395+00:00][WARN][4][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] No XML encryptor configured. Key {aaefbc95-33e4-401f-8bcb-a5d478b32bbb} may be persisted to storage in unencrypted form.
+[2021-05-15T13:18:14.8978290+00:00][INFO][4][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Writing data to file '"/root/.aspnet/DataProtection-Keys/key-aaefbc95-33e4-401f-8bcb-a5d478b32bbb.xml"'.
+[2021-05-15T13:18:15.2914550+00:00][INFO][4][Microsoft.Hosting.Lifetime] Now listening on: "http://[::]:80"
+[2021-05-15T13:18:15.2930583+00:00][INFO][4][Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2021-05-15T13:18:15.2932601+00:00][INFO][4][Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+[2021-05-15T13:18:15.2933838+00:00][INFO][4][Microsoft.Hosting.Lifetime] Content root path: "/app"
+[2021-05-15T13:18:45.5131522+00:00][INFO][5][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:9000/  
+[2021-05-15T13:18:45.6349848+00:00][INFO][5][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed.
+[2021-05-15T13:18:46.5002941+00:00][INFO][13][Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler] AuthenticationScheme: "oidc" was challenged.
+[2021-05-15T13:18:46.5110018+00:00][INFO][13][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 999.9946ms 302 
+[2021-05-15T13:19:01.4254395+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:9000/  
+[2021-05-15T13:19:01.4299185+00:00][INFO][6][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed.
+[2021-05-15T13:19:01.4334720+00:00][INFO][6][Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler] AuthenticationScheme: "oidc" was challenged.
+[2021-05-15T13:19:01.4347886+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 9.6014ms 302 
+[2021-05-15T13:19:04.9191994+00:00][INFO][13][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:9000/  
+[2021-05-15T13:19:04.9259463+00:00][INFO][13][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed.
+[2021-05-15T13:19:04.9288276+00:00][INFO][13][Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler] AuthenticationScheme: "oidc" was challenged.
+[2021-05-15T13:19:04.9331651+00:00][INFO][13][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 14.2413ms 302 
+[2021-05-15T13:19:46.5824359+00:00][INFO][10][Microsoft.AspNetCore.Hosting.Diagnostics[2021-05-15T13:25:57.8236149+00:00][INFO][1][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"IdentityServerPersistedGrantDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:25:58.7692912+00:00][INFO][4][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:25:58.8223377+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:25:58.8505774+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+[2021-05-15T13:25:58.8825464+00:00][INFO][6][Microsoft.EntityFrameworkCore.Migrations] No migrations were applied. The database is already up to date.
+[2021-05-15T13:25:58.8840811+00:00][INFO][6][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"AdminIdentityDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:25:58.9185204+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:25:58.9479814+00:00][INFO][11][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:25:58.9717617+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+[2021-05-15T13:25:58.9726740+00:00][INFO][6][Microsoft.EntityFrameworkCore.Migrations] No migrations were applied. The database is already up to date.
+[2021-05-15T13:25:58.9738871+00:00][INFO][6][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"IdentityServerConfigurationDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:25:58.9982538+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:25:59.0463668+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:25:59.0501054+00:00][INFO][5][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+[2021-05-15T13:25:59.0505367+00:00][INFO][5][Microsoft.EntityFrameworkCore.Migrations] No migrations were applied. The database is already up to date.
+[2021-05-15T13:25:59.0512445+00:00][INFO][5][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"AdminLogDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:25:59.0649132+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:25:59.0791854+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:25:59.0846420+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+[2021-05-15T13:25:59.0850930+00:00][INFO][6][Microsoft.EntityFrameworkCore.Migrations] No migrations were applied. The database is already up to date.
+[2021-05-15T13:25:59.0854901+00:00][INFO][6][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"AdminAuditLogDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:25:59.1147735+00:00][INFO][5][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:25:59.1290223+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[2021-05-15T13:25:59.1314377+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+[2021-05-15T13:25:59.1320355+00:00][INFO][6][Microsoft.EntityFrameworkCore.Migrations] No migrations were applied. The database is already up to date.
+[2021-05-15T13:25:59.1570506+00:00][WARN][6][Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+[2021-05-15T13:25:59.1581799+00:00][INFO][6][Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+[2021-05-15T13:25:59.1798584+00:00][INFO][6][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"IdentityServerConfigurationDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:25:59.3585141+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"IdentityResources\" AS i)"
+[2021-05-15T13:25:59.3672803+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"ApiResources\" AS a)"
+[2021-05-15T13:25:59.3716298+00:00][INFO][6][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"Clients\" AS c)"
+[2021-05-15T13:25:59.3779223+00:00][INFO][6][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"AdminIdentityDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreSQL "
+[2021-05-15T13:25:59.4145487+00:00][INFO][5][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"Roles\" AS r)"
+[2021-05-15T13:25:59.4533987+00:00][INFO][5][Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"Users\" AS u)"
+[2021-05-15T13:25:59.7995726+00:00][INFO][5][Microsoft.Hosting.Lifetime] Now listening on: "http://[::]:80"
+[2021-05-15T13:25:59.8001430+00:00][INFO][5][Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2021-05-15T13:25:59.8001939+00:00][INFO][5][Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+[2021-05-15T13:25:59.8002401+00:00][INFO][5][Microsoft.Hosting.Lifetime] Content root path: "/app"
+[2021-05-15T13:26:06.6806059+00:00][INFO][13][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:9000/  
+[2021-05-15T13:26:06.8226691+00:00][INFO][13][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed.
+[2021-05-15T13:26:08.4128487+00:00][INFO][6][Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler] AuthenticationScheme: "oidc" was challenged.
+[2021-05-15T13:26:08.4235318+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1744.1019ms 302 
+[2021-05-15T13:26:21.1437296+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 POST http://localhost:9000/signin-oidc application/x-www-form-urlencoded 1496
+[2021-05-15T13:26:22.7805384+00:00][INFO][6][Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler] AuthenticationScheme: "Cookies" signed in.
+[2021-05-15T13:26:22.7824055+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 1638.6175ms 302 
+[2021-05-15T13:26:22.7985602+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:9000/  
+[2021-05-15T13:26:22.8026587+00:00][INFO][4][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization was successful.
+[2021-05-15T13:26:22.8036188+00:00][INFO][4][Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"MyProject.Admin.Controllers.HomeController.Index (MyProject.Admin)"'
+[2021-05-15T13:26:22.8244418+00:00][INFO][4][Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MyProject.Admin.Controllers.HomeController" ("MyProject.Admin").
+[2021-05-15T13:26:22.8707057+00:00][INFO][4][Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] Executing ViewResult, running view "Index".
+[2021-05-15T13:26:23.4346724+00:00][INFO][4][Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] Executed ViewResult - view "Index" executed in 564.7938ms.
+[2021-05-15T13:26:23.4358805+00:00][INFO][4][Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "MyProject.Admin.Controllers.HomeController.Index (MyProject.Admin)" in 610.2995ms
+[2021-05-15T13:26:23.4361808+00:00][INFO][4][Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"MyProject.Admin.Controllers.HomeController.Index (MyProject.Admin)"'
+[2021-05-15T13:26:23.4385631+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 640.0454ms 200 text/html; charset=utf-8
+[2021-05-15T13:26:23.4673071+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:9000/dist/css/bundle.min.css?v=6M320d78nIfpBFUkLz-ZUXonqvvM-NjZXUbkHbIYB_w  
+[2021-05-15T13:26:23.4977696+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:9000/dist/css/web.css?v=KmyZsn_VVTpjkvStGglSEk5quJLGCzQaCO-S5cM30-M  
+[2021-05-15T13:26:23.5117317+00:00][INFO][6][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/dist/css/web.css"'. Physical path: '"/app/wwwroot/dist/css/web.css"'
+[2021-05-15T13:26:23.5119059+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 14.1748ms 200 text/css
+[2021-05-15T13:26:23.5122833+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:9000/dist/js/bundle.min.js?v=lhjL2AFlbI-DTyxqApXVeI2sMf4klH8JB2nohgH9Kls  
+[2021-05-15T13:26:23.5271537+00:00][INFO][6][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/dist/css/bundle.min.css"'. Physical path: '"/app/wwwroot/dist/css/bundle.min.css"'
+[2021-05-15T13:26:23.5275662+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 60.2516ms 200 text/css
+[2021-05-15T13:26:23.5405051+00:00][INFO][6][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/dist/js/bundle.min.js"'. Physical path: '"/app/wwwroot/dist/js/bundle.min.js"'
+[2021-05-15T13:26:23.5407552+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 28.4598ms 200 application/javascript
+[2021-05-15T13:26:23.5599312+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:9000/dist/fonts/open-iconic.woff  
+[2021-05-15T13:26:23.5686643+00:00][INFO][6][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/dist/fonts/open-iconic.woff"'. Physical path: '"/app/wwwroot/dist/fonts/open-iconic.woff"'
+[2021-05-15T13:26:23.5689032+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 8.9201ms 200 application/font-woff
+[2021-05-15T13:26:23.6120420+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:9000/favicon.ico  
+[2021-05-15T13:26:23.6201709+00:00][INFO][6][Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/favicon.ico"'. Physical path: '"/app/wwwroot/favicon.ico"'
+[2021-05-15T13:26:23.6203833+00:00][INFO][6][Microsoft.AspNetCore.Hosting.Diagnostics] Request finished in 8.3405ms 200 image/x-icon
+[2021-05-15T13:26:27.1026069+00:00][INFO][4][Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:9000/Configuration/Clients  
+[2021-05-15T13:26:27.1084711+00:00][INFO][4][Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization was successful.
+[2021-05-15T13:26:27.1089971+00:00][INFO][4][Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"MyProject.Admin.Controllers.ConfigurationController.Clients (MyProject.Admin)"'
+[2021-05-15T13:26:27.1322000+00:00][INFO][4][Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"Clients\", controller = \"Configuration\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Clients(System.Nullable`1[System.Int32], System.String)" on controller "MyProject.Admin.Controllers.ConfigurationController" ("MyProject.Admin").
+[2021-05-15T13:26:27.2423249+00:00][INFO][4][Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "3.1.0" initialized '"IdentityServerConfigurationDbContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL"' with options: "MigrationsAssembly=MyProject.Admin.EntityFramework.PostgreS
