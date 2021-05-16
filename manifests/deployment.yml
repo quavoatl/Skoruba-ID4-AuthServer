@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: quavoatlskorubaidauthserver 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: quavoatlskorubaidauthserver
+  template:
+    metadata:
+      labels:
+        app: quavoatlskorubaidauthserver 
+    spec:
+      containers:
+        - name: quavoatlskorubaidauthserver 
+          image: acrresource.azurecr.io/quavoatlskorubaidauthserver
+          ports:
+          - containerPort: 80
